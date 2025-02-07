@@ -1,0 +1,19 @@
+name: modeling
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - icecream
+  - isort
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab_code_formatter
+  - matplotlib
+  - numpy
+  - openpyxl
+  - pandas
+  - pandoc
+  - pip
+  - python
+  - statsmodels
