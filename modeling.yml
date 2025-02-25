@@ -5,6 +5,7 @@ channels:
 dependencies:
   - black
   - icecream
+  - ipympl
   - isort
   - jupyterlab
   - jupyterlab-git
@@ -17,3 +18,4 @@ dependencies:
   - pip
   - python
   - statsmodels
+  - sympy
