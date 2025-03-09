@@ -2,19 +2,23 @@ name: r-ess
 channels:
   - r
   - conda-forge
-  - defaults
 dependencies:
   #  to-review libraries not yet necessary
-    #  - r-broom
-    #  - r-ggalt
+    #  - r-broom # converts things to tibbles, including regression objects
+    #  - r-ggalt # additional chart types, generally very specific/odd
     #  - r-gganimate
-    #  - r-vroom
+    #  - r-vroom # lazy reading of files
+    #  - r-ggforce # add many advanced ggplto features like zooms
   - jupyterlab
   - jupyterlab-git
   - jupyterlab_code_formatter
   - pandoc
   - r-essentials
   - r-ggrepel
+  - r-ggridges
   - r-ggstatsplot
+  - r-patchwork # allows GOG-like multiplot compositions
+  - r-quanteda # NLP
   - r-rio
+  - r-scales # set scales with suffixes, etc along axes
   - r-tidyverse
