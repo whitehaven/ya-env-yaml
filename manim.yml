@@ -1,0 +1,22 @@
+name: manim
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - ffmpeg
+  - icecream
+  - ipympl
+  - isort
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab_code_formatter
+  - manim
+  - matplotlib
+  - numpy
+  - openpyxl
+  - pandas
+  - pandoc
+  - pip
+  - python
+  - sympy
