@@ -16,6 +16,7 @@ dependencies:
   - pandas
   - pandoc
   - pip
+  - polars
   - python
   - statsmodels
   - sympy
