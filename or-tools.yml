@@ -13,9 +13,11 @@ dependencies:
   - matplotlib
   - numpy
   - openpyxl
-  - ortools-python
   - pandas
   - pandoc
   - pip
   - python
   - sympy
+  - tabulate
+  - pip:
+    - ortools
